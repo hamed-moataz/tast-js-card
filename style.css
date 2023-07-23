@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #352f5b;
+    color: #fff;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 30px;
+    background-image: linear-gradient(to top, #352f5b , rgba(255,255,255,.5))
+
+}
+p{
+    font-size: 22px;
+}
+
+.task{
+  
+    width: 70vw;
+    background: rgba( 172, 214, 221, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 24px;
+
+}
+
+.icon:hover{
+    font-size: 27px;
+    transition: .3s;
+    cursor: pointer;
+}
+.icon-star , .icon-trash-o{
+    opacity: .4;
+    font-size: 24px;
+  
+}
+
+.icon-star:hover{
+    font-size: 27px;
+    color: orange;
+    opacity: 1;
+}
+.icon-trash-o{
+    margin-right: 15px;
+}
+.icon-trash-o:hover{
+    color: antiquewhite;
+    font-size: 27px;
+    opacity: 1;
+}
+
+.icon-happy{
+    font-size: 22px;
+    opacity: .4;
+
+}
+
+.icon-happy:hover{
+    font-size: 26px;
+    color: rgb(249, 162, 0);
+    opacity: 1;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 30;
+    margin-bottom: 40px;
+}
+button {all: unset;}
+.icon-cloud-upload{
+    font-size: 35px;
+    color: #fff;
+    margin-left: 15px;
+    position: relative;
+    top: 10px;
+}
+.icon-cloud-upload:hover{
+    font-size: 40px;
+    transition: .2s;
+    color: rgb(124, 212, 212);
+}
+
+.dn{
+    display: none;
+}
+.icon-heart{
+    font-size: 22px;
+    color: red;
+}
+.icon-heart:hover{
+    font-size: 24px;
+    transition: .3s;
+}
+
+.finish{
+    text-decoration-line: line-through;
+}
+
+.orange{
+    font-size:24px;
+    color: orange;
+    opacity: 1;
+}
